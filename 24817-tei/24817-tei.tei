@@ -1,0 +1,1522 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<!DOCTYPE TEI.2 SYSTEM "http://www.gutenberg.org/tei/marcello/0.4/dtd/pgtei.dtd" [
+<!ENTITY amacron '&#x101;'>
+<!ENTITY imacron '&#x12b;'>
+<!ENTITY alpha '&#x3b1;'>
+<!ENTITY beta '&#x3b2;'>
+<!ENTITY delta '&#x3b4;'>
+<!ENTITY epsilon '&#x3b5;'>
+<!ENTITY eta '&#x3b7;'>
+<!ENTITY lambda '&#x3bb;'>
+<!ENTITY pi '&#x3c0;'>
+<!ENTITY iotaprime '&#x3af;'>
+<!ENTITY bdquo '&#x201e;'>
+<!ENTITY minus '&#x2212;'>
+]>
+
+<TEI.2 lang="de">
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>Ueber die Geometrie der alten Aegypter.</title>
+            <title type='sub'>Vortrag, gehalten in der feierlichen Sitzung der Kaiserlichen Akademie der Wissenschaften am 29. Mai 1884</title>
+    <author><name rend='gesperrt' type="person" reg="Weyr, Emil">Emil Weyr</name></author>
+  </titleStmt>
+  <editionStmt>
+    <edition n="01">
+      Project Gutenberg TEI Edition 01
+    </edition>
+  </editionStmt>
+  <publicationStmt>
+    <publisher>Project Gutenberg</publisher>
+    <date value="2008-03-13">March 13, 2008</date>
+    <idno type="etext-no">24817</idno>
+    <availability>
+      <p>This eBook is for the use of anyone anywhere at no cost and
+      with almost no restrictions whatsoever. You may copy it, give it
+      away or re-use it under the terms of the Project Gutenberg
+      License online at www.gutenberg.org/license</p>
+    </availability>
+  </publicationStmt>
+  <sourceDesc>
+    <bibl>
+      <title>Über die Geometrie der alten Ægypter.</title>
+      <title type='alt'>Ueber die Geometrie der alten Aegypter.</title>
+      <title type='sub'>Vortrag, gehalten in der feierlichen Sitzung der Kaiserlichen Akademie der Wissenschaften am 29. Mai 1884</title>
+      <author><name rend='gesperrt' type="person" reg="Weyr, Emil">Emil Weyr</name></author>
+    <pubPlace>Wien</pubPlace>
+    <publisher>Karl Gerold's Sohn</publisher>
+    <date>1884</date>
+    </bibl>
+  </sourceDesc>
+</fileDesc>
+<encodingDesc>
+  <classDecl>
+    <taxonomy id="lc">
+      <bibl>
+        <title>Library of Congress Classification</title>
+      </bibl>
+    </taxonomy>
+  </classDecl>
+</encodingDesc>
+<profileDesc>
+  <langUsage>
+    <language id="de"></language>
+  </langUsage>
+  <textClass>
+    <classCode scheme="lc">QA</classCode>
+    <keywords>
+      <list>
+        <item>Mathematics</item>
+        <item>Geometry</item>
+        <item>History</item>
+        <item>Egypt</item>
+      </list>
+    </keywords>
+  </textClass>
+</profileDesc>
+<revisionDesc>
+  <change>
+    <date value="2008-03-13">March 13, 2008</date>
+    <respStmt><name rend='gesperrt' type='person'>R. Stephan</name></respStmt>
+      <item>Project Gutenberg TEI edition 01</item>
+    </change>
+  </revisionDesc>
+</teiHeader>
+<pgExtensions>
+  <pgStyleSheet>
+    emph             { font-weight: bold }
+    table            { rules: all }
+    .indent          { margin-left: 2 }
+    .smallcaps       { font-variant: small-caps }
+    .gesperrt        { font-weight: bold }
+    .antiqua         { font-style: italic }
+    .sperrantiqua    { font-weight: bold; font-style: italic }
+    argument         { font-size: small }
+    q                { pre: none; post: none }
+    soCalled         { font-style: italic; pre: none; post: none }
+    author           { font-variant: small-caps }
+    title            { font-style: italic }
+    biblStruct       { display: block; margin: 0.5em }
+  </pgStyleSheet>
+  <pgCharMap formats="pdf txt">
+     <char id="U0x2032">
+     <charName>prime</charName>
+     <desc>PRIME</desc>
+     <mapping>'</mapping>
+     </char>
+     <char id="U0x0101">
+     <charName>amacron</charName>
+     <desc>SMALL A MACRON</desc>
+     <mapping>a</mapping>
+     </char>
+     <char id="U0x012B">
+     <charName>imacron</charName>
+     <desc>SMALL I MACRON</desc>
+     <mapping>i</mapping>
+     </char>
+     <char id="U0x2033">
+     <charName>Prime</charName>
+     <desc>DOUBLE PRIME</desc>
+     <mapping>''</mapping>
+     </char>
+   <char id="U0x03B1">
+     <charName>alpha</charName>
+     <desc>SMALL ALPHA</desc>
+     <mapping>a</mapping>
+    </char>
+   <char id="U0x03B2">
+     <charName>beta</charName>
+     <desc>SMALL BETA</desc>
+     <mapping>ß</mapping>
+    </char>
+   <char id="U0x03B4">
+     <charName>delta</charName>
+     <desc>SMALL DELTA</desc>
+     <mapping>d</mapping>
+    </char>
+   <char id="U0x03B5">
+     <charName>epsilon</charName>
+     <desc>SMALL EPSILON</desc>
+     <mapping>e</mapping>
+    </char>
+   <char id="U0x03B7">
+     <charName>epsilon</charName>
+     <desc>SMALL ETA</desc>
+     <mapping>e</mapping>
+    </char>
+   <char id="U0x03BB">
+     <charName>lambda</charName>
+     <desc>SMALL LAMBDA</desc>
+     <mapping>l</mapping>
+    </char>
+   <char id="U0x03C0">
+     <charName>pi</charName>
+     <desc>SMALL PI</desc>
+     <mapping>pi</mapping>
+    </char>
+   <char id="U0x03AF">
+     <charName>iotaprime</charName>
+     <desc>SMALL IOTA PRIMED</desc>
+     <mapping>í</mapping>
+    </char>
+   </pgCharMap>
+   <pgCharMap formats="txt">
+    <char id="U0x2014">
+      <charName>mdash</charName>
+      <desc>EM DASH</desc>
+      <mapping>--</mapping>
+    </char>
+    <char id="U0x2013">
+      <charName>ndash</charName>
+      <desc>EN DASH</desc>
+      <mapping>--</mapping>
+    </char>
+    <char id="U0x2003">
+      <charName>emsp</charName>
+      <desc>EM SPACE</desc>
+      <mapping>  </mapping>
+    </char>
+    <char id="U0x2026">
+      <charName>hellip</charName>
+      <desc>HORIZONTAL ELLIPSIS</desc>
+      <mapping>...</mapping>
+    </char>
+    <char id="U0x2212">
+      <charName>minus</charName>
+      <desc>MINUS</desc>
+      <mapping>-</mapping>
+    </char>
+    <char id="U0x201E">
+      <charName>bdquo</charName>
+      <desc>DOUBLE LOQW QUOTE MARK</desc>
+      <mapping>"</mapping>
+    </char>
+  </pgCharMap>
+</pgExtensions>
+<text lang="de">
+  <front>
+    <div>
+      <divGen type="pgheader" />
+    </div>
+
+    <div>
+      <divGen type="encodingDesc" />
+    </div>
+
+    <div rend="page-break-before: right">
+      <p rend="font-size: large; text-align: center">ÜBER DIE</p>
+      <p rend="font-size: xx-large; text-align: center">GEOMETRIE DER ALTEN ÆGYPTER</p>
+        <milestone unit="tb" rend="rule: 25%" />
+      <p rend="font-size: x-large; text-align: center">VORTRAG</p>
+      <p rend="font-size: small; text-align: center">GEHALTEN IN DER</p>
+      <p rend="font-size: large; text-align: center">FEIERLICHEN SITZUNG DER KAISERLICHEN AKADEMIE DER WISSENSCHAFTEN</p>
+      <p rend="font-size: small; text-align: center">AM</p>
+      <p rend="font-size: large; text-align: center">XXIX. MAI MDCCCLXXXIV</p>
+      <p rend="font-size: small; text-align: center">VON</p>
+      <p rend="font-size: x-large; text-align: center">DR. EMIL WEYR</p>
+      <p rend="font-size: small; text-align: center">WIRKLICHEM MITGLIEDE DER KAISERLICHEN AKADEMIE DER WISSENSCHAFTEN.</p>
+        <milestone unit="tb" rend="rule: 25%" />
+      <p rend="font-size: x-large; text-align: center">WIEN</p>
+      <p rend="font-size: medium; text-align: center">AUS DER K. K. HOF- UND STAATSDRUCKEREI.</p>
+      <p rend="font-size: medium; text-align: center">IN COMMISSION BEI KARL GEROLD'S SOHN,</p>
+      <p rend="font-size: medium; text-align: center">BUCHHÄNDLER DER KAISERLICHEN AKADEMIE DER WISSENSCHAFTEN.</p>
+      <p rend="font-size: large; text-align: center">1884</p>
+    </div>
+
+  </front>
+
+  <body rend="page-break-before: right">
+<pb n='03'/><anchor id='Pg03'/>
+<div>
+  <head />
+      <p>
+Möge mir gestattet sein, bei dem heutigen feierlichen Anlasse
+ein Bild zu entrollen, welches in grossen Strichen die
+allgemeinen Umrisse des Zustandes der geometrischen
+Wissenschaften bei den alten Aegyptern zur Darstellung
+bringen soll; und möge dasselbe Wohlwollen, das, gepaart
+mit einer althergebrachten Sitte, mich heute auf diesen eben so
+ehrenvollen als schwierigen Platz gestellt, auch bei der
+Beurtheilung der folgenden bescheidenen, weil schwachen
+Kräften entspringenden Leistung obwalten!
+</p><p>
+So wie der Anfang aller menschlichen Kenntnisse, so ist
+auch der Ursprung der Geometrie in grauestes Alterthum zu
+versetzen, er ist zu suchen in jenen der Zeit nach unangebbaren
+Perioden der menschlichen Entwicklung, in welchen
+das erste Erwachen des Selbstbewusstseins zu finden wäre.
+Sind doch manche geometrische Anschauungen auch dem
+Thiere eigen; so jene der geraden Verbindungslinie zweier
+Punkte als der kürzesten Entfernung; jene des Mehr und
+Weniger bei Quantitäten der Entfernungen, Höhen, Neigungen,
+und so werden auch manche abstractere Raumanschauungen
+dem Menschen in seinen ersten Entwicklungsperioden eigen
+geworden sein, Anschauungen, welche durch die Möglichkeit
+und auf Grund der sprachlichen Bezeichnung jene Stabilität
+erhielten, die sie befähigte, als erste Fundamente der geometrischen
+Kenntnisse zunächst, und der Geometrie als Wissenschaft
+später aufzutreten.
+</p>
+<pb n='04'/><anchor id='Pg04'/>
+<p>
+Geometrisches Denken entstand zu den verschiedensten
+Zeiten, an den verschiedensten Orten. Denn überall, wo
+der menschliche Geist sich zu entwickeln begann, und
+das menschliche Denken jene Höhe erreichte, auf welcher
+Abstractionen entstehen, bildeten sich die grundlegenden
+Raumbegriffe; der des Punktes, der geraden und krummen
+Linien, der ebenen und krummen Flächen. Denn überall
+in der Natur boten sich dem erwachenden Menschen
+Repräsentanten dieser Begriffe in grösserer oder geringerer
+Genauigkeit dar. Während der Anblick der auf- und untergehenden
+Sonne, sowie des vollen Mondes in südlichen
+Gegenden fast täglich das Bild der »vollkommensten«,
+der »schönsten« Linie, der Kreislinie vorführte, stellten sich
+die zahllosen Sterne des Abends dem Auge als glänzende
+Punkte dar, welche in ihren mannigfaltigen gegenseitigen
+Lagenverhältnissen die Phantasie des Menschen bei der, von
+ihm beliebten Eintheilung des Himmels in Sternbilder zur
+Herstellung so mancher geraden und krummen Linien verleiten
+mochten. Und selbst in seiner nächsten Umgebung
+fand der beobachtende Mensch geometrische Anklänge; das
+Gewebe der Spinne mit seinen kreisrunden und radialen
+Fäden, die sechseckige Bienenzelle, die beim Fallen eines
+Körpers in ruhendes Wasser entstehenden concentrischen
+Wellenringe, und wie vieles Andere musste, wenn auch
+nach und nach, so doch mit zwingender Nothwendigkeit
+den Menschen zur Beobachtung gesetzmässiger geometrischer
+Formen führen.
+</p><p>
+Als Mutterland der Mathematik im Allgemeinen, und
+der Geometrie im Besonderen wird Aegypten angeführt; doch
+ist die Zeit längst vorbei, wo man sich Aegypten als einzigen
+Ursprungsort dieser Wissenschaften dachte, vielmehr muss
+als feststehend angenommen werden, dass jedes Volk in
+<pb n='05'/><anchor id='Pg05'/>
+seinem Entwicklungsgange geometrische Anschauungen sich
+anzueignen schon durch praktische Bedürfnisse gezwungen
+war. Die Höhe, zu welcher sich die einzelnen Völker in ihren
+mathematischen Speculationen emporzuschwingen vermochten,
+hing von der Richtung des Bildungsganges, von
+dem Maasse des Bedürfnisses und nicht in letzter Reihe von
+dem Einflüsse religiöser Verhältnisse ab.
+</p><p>
+Und so mag sich zunächst jene Naturgeometrie entwickelt
+haben, welche allen Völkern zugesprochen werden
+muss, und auf deren Vorhandensein, weil auf die Anwendungen
+ihrer freilich einfachsten Principien, Ueberreste von
+Bauten überall dort hinweisen, wo wir in der Lage sind,
+solche beobachten zu können. Die Pellasger, die vorhellenischen
+Ureinwohner Griechenlands, mussten lange vor Entstehung
+der Philosophie geometrische Kenntnisse in dem
+Maasse besessen haben, wie sie zur Aufführung von Wasserbauten,
+Dämmen, Canälen und Burgen, von denen man jetzt
+noch Spuren findet, nothwendig waren.
+</p><p>
+Verfolgt man die Entwicklung der Geometrie zu ihren
+Quellen aufwärts, so dürfen wir nicht überrascht sein, dass
+man bei dem uns bekannten ältesten Culturvolke, bei den
+Aegyptern, am weitesten vorzudringen vermag, und zwar an
+der Hand der indirecten wie der directen Nachrichten, welche
+uns über diesen Gegenstand zugekommen sind. Leider jedoch
+sind die Ersteren ihrem Inhalte und die Letzteren ihrer Zahl
+nach nur spärliche zu nennen.
+</p><p>
+Zahlreich sind wohl die Stellen in griechischen Philosophen
+und Geschichtschreibern, welche Bezug haben auf
+aegyptische Geometrie, es lässt sich jedoch nicht verkennen,
+dass oft die Späteren auf Frühere sich stützen, und wir es
+möglicherweise mit einer einzigen, durch Jahrhunderte fortgeführten
+Nachricht zu thun haben.
+</p>
+<pb n='06'/><anchor id='Pg06'/>
+<p>
+  Durch <name rend='gesperrt'>Herodot</name>, welcher <date>um die Mitte des fünften
+  vorchristlichen Jahrhunderts (460)</date> Aegypten bereiste, erfahren
+wir<note place='end'><bibl><author>Herodot</author>, <title>Reisebericht</title>,
+    <biblScope>II, 109</biblScope></bibl>.</note>,
+dass die Geometrie von Aegypten nach Griechenland
+verpflanzt worden sei. Etwas später (<date>393 v.&nbsp;Chr.</date>)
+berichtet <name rend='gesperrt'>Isokrates</name> die Thatsache<note place='end'>
+  <bibl><author>Isokrates</author>, <title>Busiris</title>,
+    <biblScope>c. 9.</biblScope></bibl></note>, dass die Aegypter »<q>die
+Aelteren (unter ihren Priestern) über die wichtigsten Angelegenheiten
+setzten, dagegen die Jüngeren beredeten, mit
+Hintansetzung des Vergnügens, sich mit Astronomie, Rechenkunst
+und Geometrie zu beschäftigen</q>«.
+</p><p>
+In <name rend='gesperrt'>Platon</name>'s <title>Phädrus</title> sagt
+<name rend='gesperrt' id='a:sok'>Sokrates</name>: »<q>Ich habe
+vernommen, zu Naukratis in Aegypten sei einer der dortigen
+alten Götter gewesen, dem auch der Vogel geheiligt ist,
+den sie Isis nennen, während der Gott selbst den Namen
+Teuth führt; dieser habe zuerst Zahlenlehre und Rechenkunst
+erfunden und Geometrie und Astronomie</q>«<note place='end'>
+<bibl><title><emph>Platonis</emph> Phaedrus</title>,
+  ed. <editor>Ast.</editor> 
+  <biblScope>I. p. 246.</biblScope></bibl></note>,
+und einen
+directen Hinweis finden wir bei <name rend='gesperrt'>Aristoteles</name>, welcher in
+seiner <title>Metaphysik</title> sagt:<note place='end'>
+  <bibl><author>Aristoteles</author>, <title>Metaph. I</title>,
+    <biblScope>1.</biblScope></bibl></note>
+»<q>Daher entstanden auch in Aegypten
+die mathematischen Wissenschaften, denn hier war den
+Priestern die dazu nöthige Müsse vergönnt.</q>«
+</p><p>
+Uebrigens schrieben sich die Aegypter neben der Erfindung
+der Buchstabenschrift auch jene der meisten Wissenschaften
+und Künste zu, worüber <name rend='gesperrt'>Diodor</name><note place='end'>
+  <bibl><author>Diodor</author>, <biblScope>I, 69</biblScope></bibl>.</note>,
+welcher etwa
+<date>70 Jahre v.&nbsp;Chr.&nbsp;G.</date> Aegypten bereiste, bemerkt: »<q>Die
+Aegypter behaupten, von ihnen sei die Erfindung der Buchstabenschrift
+und die Beobachtung der Gestirne ausgegangen,
+ebenso seien von ihnen die Theoreme der Geometrie und
+die meisten Wissenschaften und Künste erfunden worden.</q>«
+</p><p>
+Neben diesen ganz allgemein gehaltenen Angaben sind
+hauptsächlich diejenigen Berichte zu erwähnen, welche sich
+auf die Art der wissenschaftlichen Leistungen der Aegypter
+beziehen.
+</p>
+<pb n='07'/><anchor id='Pg07'/>
+<p>
+  Da sagt zunächst <name rend='gesperrt'>Herodot</name><note place='end'>
+    Herodot l. c.</note>
+in Hinsicht auf die unter
+dem Könige <name rend='gesperrt'>Sesostris</name> durchgeführte Ländereintheilung:
+»<q>Auch sagten sie, dass dieser König das Land unter alle
+Aegypter so vertheilt habe, dass er jedem ein gleich grosses
+Viereck gegeben, und von diesem seine Einkünfte bezogen habe,
+indem er eine jährlich zu entrichtende Steuer auflegte.
+Wem aber der Fluss (Nil) von seinem Theile etwas
+wegriss, der musste zu ihm kommen und das Geschehene
+anzeigen; er schickte dann die Aufseher, die auszumessen
+hatten, um wie viel das Landstück kleiner geworden war,
+damit der Inhaber von dem übrigen nach Verhältniss der
+aufgelegten Abgaben steure. Hieraus erscheint mir die Geometrie
+entstanden zu sein, die von da nach Hellas kam.</q>«
+</p><p>
+Die, <name rend='gesperrt'>Herodot</name>, dem Vater der Geschichtsschreibung
+folgenden Berichterstatter hielten sich nun, vielleicht erklärlicherweise,
+vorzüglich an den einen, die Nilüberschwemmungen
+betreffenden Theil obiger Nachricht, und wurde,
+gewiss Unberechtigtermassen der Nil als der unmittelbare
+Anstoss für alle geometrischen Arbeiten der Aegypter hingestellt.
+Und doch scheint es uns viel näherliegend, die einerseits
+behufs der Steuerbemessung und Controle, anderseits
+wegen der aus den Veränderungen im Besitzstande sich
+nothwendig ergebenden Flächenfestsetzungen als den Hauptbeweggrund
+jener Vermessungen zu erkennen, wobei die
+gesammelten Erfahrungen gewiss auch bei der Beurtheilung
+der unzweifelhaft nach den periodisch eintretenden Nilüberschwemmungen
+vorgekommenen Terrainveränderungen mit
+Vortheil benutzt worden sein mögen.
+</p><p>
+Unverkennbar ist der Zug nach Aufbauschung und Ausschmückung
+des, jene Nilüberschwemmungen betreffenden
+Theiles des <name rend='gesperrt'>Herodot</name>'schen Berichtes, wenn man die Aufzeichnungen
+späterer Gewährsmänner näher betrachtet.
+</p>
+<pb n='08'/><anchor id='Pg08'/>
+<p>
+  Zunächst finden wir bei <name rend='gesperrt'>Heron</name> dem Aelteren die folgende
+  diesbezügliche Stelle<note place='end'>
+    <bibl><title><emph>Heronis Alexandr.</emph> geom. et stereom. reliquiae</title>,
+    ed. <editor>Hultsch.</editor>
+    <biblScope>p. 138.</biblScope></bibl></note>:
+  »<q>Die früheste Geometrie beschäftigte
+sich, wie uns die alte Ueberlieferung lehrt, mit der Messung und
+Vertheilung der Ländereien, woher sie Feldmessung genannt
+wurde. Der Gedanke einer Messung nämlich ward den Aegyptern
+an die Hand gegeben durch die Ueberschwemmungen des
+Nil. Denn viele Grundstücke, die vor der Flussschwelle offen
+dalagen, verschwanden beim Steigen des Flusses und kamen
+erst nach dem Sinken desselben zum Vorschein, und es war
+nicht immer möglich, über die Identität derselben zu entscheiden.
+Dadurch kamen die Aegypter auf den Gedanken
+einer solchen Messung des vom Nil blossgelegten Landes.</q>«
+</p><p>
+Weiter finden wir bei <name rend='gesperrt'>Diodor</name><note place='end'>
+  <bibl><author>Diodor</author>, <biblScope> I, 81.</biblScope></bibl></note>
+einen Ausspruch,
+durch welchen wir übrigens auch über andere wissenschaftliche
+Leistungen der Aegypter belehrt werden; <name rend='gesperrt'>Diodor</name>
+sagt: »<q>Die Priester lehren ihre Söhne zweierlei Schrift, die
+sogenannte heilige, und die, welche man gewöhnlich lernt.
+Mit Geometrie und Arithmetik beschäftigen sie sich eifrig.
+Denn indem der Fluss jährlich das Land vielfach verändert,
+veranlasst er viele und mannigfache Streitigkeiten über die
+Grenzen zwischen den Nachbarn; diese können nun nicht
+leicht ausgeglichen werden, wenn nicht ein Geometer den
+wahren Sachverhalt durch directe Messung ermittelt. Die
+Arithmetik dient ihnen in Haushaltungsangelegenheiten und
+bei den Lehrsätzen der Geometrie; auch ist sie denen von
+nicht geringem Vortheile, die sich mit Sternkunde beschäftigen.
+Denn wenn bei irgend einem Volke die Stellungen und Bewegungen
+der Gestirne sorgfältig beobachtet worden sind,
+so ist es bei den Aegyptern geschehen; sie verwahren Aufzeichnungen
+der einzelnen Beobachtungen seit einer unglaublich
+langen Beihe von Jahren, da bei ihnen seit alten
+Zeiten her die grösste Sorgfalt hierauf verwendet worden
+<pb n='09'/><anchor id='Pg09'/>
+ist. Die Bewegungen und Umlaufszeiten sowie die Stillstände
+der Planeten, auch den Einfluss eines jeden auf die Entstehung
+lebender Wesen und alle ihre guten und schädlichen
+Einwirkungen haben sie sehr sorgfältig beobachtet.</q>«
+</p><p>
+Am innigsten verknüpft erscheint die Geometrie der
+Aegypter mit den Ueberschwemmungen des Nil bei <name rend='gesperrt'>Strabon</name><note place='end'>
+  <bibl><author>Strabon</author>, ed. <editor>Meinike</editor>,
+    <biblScope>lib. XVII, C. 787, p. 1098.</biblScope></bibl></note>;
+welcher bemerkt, »<q>dass es einer sorgfältigen und bis auf das
+Genaueste gehenden Eintheilung bedurfte, wegen der beständigen
+Verwüstung der Grenzen, die der Nil bei seinen
+Ueberschwemmungen veranlasst, indem er Land wegnimmt
+und zusetzt, und die Gestalt verändert, und die anderen Zeichen
+unkenntlich macht, wodurch das fremde und eigene Besitzthum
+unterschieden wird. Man müsse daher immer und
+immer wieder messen. Hieraus soll die Geometrie entstanden
+sein.</q>«
+</p><p>
+Den gesellschaftlichen Einrichtungen der Aegypter
+entsprechend, muss als feststehend angenommen werden,
+dass sich eine Kaste, nach eben Gehörtem die der Priester,
+mit dem wissenschaftlichen Theile der Geometrie beschäftigte,
+während eine andere, die der Feldmesser, die von den
+Ersteren aufgestellten und sorgsam gehüteten geometrischen
+Principien praktisch zur Anwendung brachte. Dabei wurden,
+wie wir später sehen werden, die Geheimnisse der Priester,
+insoweit sie geometrische Wahrheiten und Berechnungsregeln
+betrafen, möglicherweise nur insoweit enthüllt, dass
+bei deren Verwendung nur annäherungsweise richtige Resultate
+zum Vorschein kamen.
+</p><p>
+Wohl sind einige Schriftsteller so weit gegangen, dass
+sie, die unläugbaren Uebertreibungen des Zusammenhanges
+zwischen den Nilüberschwemmungen und der ägyptischen
+Geometrie im Auge behaltend, die Existenz der letzteren
+<pb n='10'/><anchor id='Pg10'/>
+einfach negirten, und alle die citirten Aussprüche in das
+Gebiet der Fabel verwiesen.
+</p><p>
+Was macht man jedoch dann mit den wohlbeglaubigten
+Nachrichten über die Reisen, welche hervorragende griechische
+Philosophen nach Aegypten unternahmen, oft jahrelang
+dort verweilend, um sich in die Geheimnisse aegyptischer
+Priester einweihen und mit deren geometrischem Wissen
+vertraut machen zu lassen?
+</p><p>
+<name rend='gesperrt'>Eudemus von Rhodos</name><note place='end'>
+  <bibl><title><emph>Eudemi Rhodii</emph> Peripatetici fragmenta quae
+      supersunt</title>.
+    ed. <editor>L. Spengel.</editor>
+    <biblScope>Berlin 1870.</biblScope></bibl></note>,
+  einer der ältesten Peripatetiker,
+schrieb eine Geschichte der Mathematik, aus
+welcher uns durch <name id='a:pro' rend='gesperrt'>Proklos Diadochus</name><note place='end'>
+  <bibl><author corresp='a:pro' /><title><emph>Procl.</emph> comment.</title>
+    ed. <editor>Rasil.</editor>
+    <biblScope>p. 19;</biblScope></bibl>
+  <bibl><author corresp='a:pro' /><title>Barocius</title>
+    <biblScope>p. 37.</biblScope></bibl></note>, einen Philosophen
+des fünften nachchristlichen Jahrhunderts, ein
+Bruchstück erhalten ist, welches sozusagen das einzige
+Mittel bildet, das uns einen Einblick in die geometrischen
+Errungenschaften der Griechen in den ersten dritthalb
+Jahrhunderten nach <name rend='gesperrt'>Thales</name> gewährt. Hierin heisst es unter
+Anderem: »<q><name rend='gesperrt'>Thales</name>, der nach Aegypten ging, brachte zuerst
+die Geometrie nach Hellas hinüber und Vieles entdeckte er
+selbst, von Vielem aber überlieferte er die Anfänge seinen
+Nachfolgern; das Eine machte er allgemeiner, das Andere
+mehr sinnlich fassbar.</q>« Hundert Jahre nach dem Tode des
+<name rend='gesperrt'>Pythagoras</name> berichtet der Redner <name rend='gesperrt'>Isokrates</name><note place='end'>
+  <bibl><author>Isokrates</author>, <title>Busiris</title>,
+    <biblScope>cap. 11.</biblScope></bibl></note>: »<q>Man
+könnte, wenn man nicht eilen wollte, viel Bewunderungswürdiges
+von der Heiligkeit aegyptischer Priester anführen,
+welche ich weder allein noch zuerst erkannt habe, sondern
+viele der jetzt Lebenden und der Früheren, unter denen
+auch <name rend='gesperrt'>Pythagoras</name> der Samier ist, der nach Aegypten
+kam und ihr Schüler wurde und die fremde Philosophie
+zuerst zu den Griechen verpflanzte.</q>«
+</p><p>
+Während der Aufenthalt des <name rend='gesperrt'>Pythagoras</name> in Aegypten
+unter Anderen auch noch von <name rend='gesperrt'>Strabon</name><note place='end'>
+  <bibl><author>Strabon</author>,
+    <biblScope>XIV, 1. 16.</biblScope></bibl></note>
+und <name rend='gesperrt'>Antiphon</name><note place='end'>
+  <bibl><author>Porphyrius</author>, <title>De vita Pythagorae</title>
+    <biblScope>cap. 7;</biblScope></bibl>
+  <bibl><author>Diogenes Laertius</author>,
+    <biblScope>VIII, 3.</biblScope></bibl></note>
+bestätiget wird, nennt uns <name rend='gesperrt'>Diodor</name><note place='end'>
+  <bibl><author>Diodor</author>, <biblScope>I, c. 96.</biblScope></bibl></note>
+eine ganze Reihe von
+<pb n='011'/><anchor id='V2Pg011'/>
+Namen, indem er sagt; »<q>Die aegyptischen Priester nennen
+unter den Fremden, welche nach den Verzeichnissen in den
+heiligen Büchern vormals zu ihnen gekommen seien, den
+<name rend='gesperrt'>Orpheus</name>, <name rend='gesperrt'>Musaios</name>,
+<name rend='gesperrt'>Melampus</name> und <name rend='gesperrt'>Daidalos</name>, nach
+diesen den Dichter <name rend='gesperrt'>Homer</name>, den Spartaner <name rend='gesperrt'>Lykurgos</name>, ingleichen
+den Athener <name rend='gesperrt'>Solon</name> und den Philosophen <name rend='gesperrt'>Platon</name>.
+Gekommen sei zu ihnen auch der Samier <name rend='gesperrt'>Pythagoras</name> und
+der Mathematiker <name rend='gesperrt'>Eudoxos</name>, ingleichen <name rend='gesperrt'>Demokritos von
+  Abdera</name> und <name rend='gesperrt'>Oinopides von Chios</name>. Von allen diesen
+weisen sie noch Spuren auf, von den Einen Bildnisse von
+den Anderen Orte und Gebäude, die nach ihnen benannt
+sind. Aus der Vergleichung dessen, was jeder von ihnen in
+seinem Fache geleistet hat, führen sie den Beweis, dass sie
+Dasjenige um desswillen sie von den Hellenen bewundert
+werden, aus Aegypten entlehnt haben.</q>« Aus diesen Stellen
+geht mit Sicherheit hervor, dass viele Griechen nach
+Aegypten zogen, um bei den dortigen Priestern Philosophie
+und Mathematik kennen zu lernen, da wohl in den Berichten
+nur die hervorragenden Männer angeführt wurden.
+</p><p>
+Der Milesier <name rend='gesperrt'>Thales</name>, welcher erst in vorgerücktem
+Alter, und nachdem er als Handelsmann früher gewiss schon
+mehrmals Aegypten besucht gehabt, sich daselbst behufs
+seiner Studien zu längerem Aufenthalt niederlies, ist merkwürdiger
+Weise in dem Berichte des Diodor nicht angeführt,
+und könnte man wohl aus diesem Umstande umsomehr
+einen gewissen Grad von Unglaublichkeit ableiten, als darin
+mythische Namen wie <name rend='gesperrt'>Orpheus</name>, <name rend='gesperrt'>Daidalos</name> und <name rend='gesperrt'>Homer</name>
+angeführt erscheinen. Diese letzteren konnten jedoch sehr
+wohl dem im Ganzen und Grossen sonst richtigen Verzeichnisse
+vom Berichterstatter eigenwillig beigefügt worden sein,
+um dadurch das hohe Alter aegyptischer Wissenschaft in ein
+vorteilhaftes Licht zu setzen.
+</p>
+<pb n='12'/><anchor id='Pg12'/>
+<p>
+Abgesehen jedoch von aller Wahrscheinlichkeit oder
+Unwahrscheinlichkeit für die Exactheit obiger Aussprüche
+in Bezug auf einzelne Namen, dürfte jedenfalls das als
+unumstössliche Wahrheit gelten, dass die ägyptischen Priester
+von den Griechen als in den Wissenschaften, insbesondere
+in der Geometrie sehr bewandert gehalten wurden, und
+zwar in einem solchen Maasse, dass eine Reihe hervorragender
+griechischer Philosophen es nicht verschmähte, die, für
+damalige Verhältnisse nicht unbedeutende Reise nach
+Aegypten zu unternehmen, ja oft jahrelang in diesem Lande
+mit unbekannter Sprache und Schrift zu verweilen, um sich
+die Kenntnisse der Aegypter anzueignen.
+</p><p>
+Stellt man nun zunächst die Frage nach Quantität und
+Qualität des geometrischen Wissens, welches die Griechen
+von ihren Studienreisen mit nach Hause brachten, so scheint
+dies, selbst vom Standpunkte der unmittelbar nachpythagoräischen
+Geometrie, äusserst Weniges gewesen zu sein.
+</p><p>
+<name rend='gesperrt'>Thales</name> von Milet, einer der sieben griechischen
+Weltweisen, der Begründer der ionischen Schule, <name rend='gesperrt'>Thales</name>,
+welcher für das Jahr 585 v.&nbsp;Chr.&nbsp;G. eine, auch eingetroffene
+Sonnenfinsterniss vorherzusagen wusste, soll, den uns von
+<name rend='gesperrt'>Proklos</name> zugekommenen Berichten zufolge, in Aegypten
+nicht viel mehr erfahren haben, als die Sätze über die Gleichheit
+der Winkel an der Basis eines gleichschenkligen Dreieckes,
+die Gleichheit der Scheitelwinkel am Durchschnitt
+zweier Geraden; er wusste ferner, wie ein Dreieck durch eine
+Seite und die beiden anliegenden Winkel bestimmt erscheint,
+diese Erörterung zur Messung der Entfernungen von Schiffen
+auf dem Meere benützend, es war ihm bekannt, dass ein
+Kreis durch einen Durchmesser halbirt wird,<note place='end'>
+  <bibl><author>Proklos</author>, ed. <editor>Friedlein</editor>,
+    <biblScope>250, 299, 352, 157.</biblScope></bibl></note>
+und soll er die
+Höhe der Pyramiden aus der Länge des Schattens gemessen
+haben, höchst wahrscheinlich in dem Momente, wo die
+<pb n='13'/><anchor id='Pg13'/>
+Schattenlänge eines senkrechten Stabes der Stablänge gleich
+ist,<note place='end'>
+  <bibl><author>Diogenes Laertius</author>,
+    <biblScope>I, 27.</biblScope></bibl>
+  <bibl><author>Plinius</author>, <title>Hist. nat.</title>
+    <biblScope>XXXVI, 12, 17.</biblScope></bibl></note>
+möglicherweise jedoch, wie <name rend='gesperrt'>Plutarch</name><note place='end'>
+  <bibl><author>Plutarch</author>, ed. <editor>Didot.</editor>
+    <biblScope>Vol. 2, III, p. 174.</biblScope></bibl></note>
+berichtet,
+auch zu einer beliebigen Tageszeit. Auch wird ihm von
+<name rend='gesperrt'>Pamphile</name><note place='end'>
+  <bibl><author>Diogenes Laertius</author>
+    <biblScope>I, 24&ndash;25.</biblScope></bibl></note>
+die Kenntniss des Satzes zugeschrieben, dass
+der Peripheriewinkel im Halbkreise ein rechter sei. Gewiss
+hat Thales wenigstens jene geometrischen Fundamente in
+Aegypten kennen gelernt, welche es ihm ermöglichten, die
+genannten Sätze als wahr zu erkennen, wenn auch bei ihm,
+selbst bei diesen einfachen Dingen an einen strengen Beweis
+nicht gedacht werden kann.
+</p><p>
+Es wäre jedoch voreilig, aus der Geringfügigkeit der
+Thaletischen geometrischen Kenntnisse mit <name rend='gesperrt'>Montucla</name>
+<note place='end'><bibl><author>Montucla</author>, <title>Hist. d. math.</title>
+    <biblScope>2. édit. t. I, p. 49.</biblScope></bibl></note>
+zu schliessen, dass auch die Aegypter nicht viel mehr gewusst
+hätten. Man kann wohl annehmen, dass die aegyptischen
+Priester bei ihrer den Fremden gegenüber beobachteten
+Zurückhaltung nur einen Theil ihres Wissens offenbarten;
+wer könnte jedoch bemessen, in welchem Verhältnisse dieser
+Theil zu ihrem Gesammtwissen stand? Der Ansicht
+<name rend='gesperrt'>Montucla</name>'s kann man entgegensetzen, dass die Aegypter
+den Fremden nur einen kleinen Bruchtheil ihres sorgsam
+im Verborgenen gehüteten Wissens preisgegeben haben
+mochten, wobei ferner nicht unberücksichtigt bleiben darf,
+dass den nach Aegypten gekommenen Griechen auch die
+Unkenntniss der Sprache und der Schrift weitere, nicht zu
+unterschätzende Schwierigkeiten bereitete, in dem Maasse als
+vielleicht Manches, was ihnen die aegyptischen Priester von
+aegyptischem Wissen zur Verfügung stellten, unverstanden
+bleiben konnte.
+</p><p>
+Was nun das Wesen aegyptischer Geometrie betrifft, so
+finden wir in den Berichten der Alten fast gar keine Anhaltspunkte,
+um uns hierüber Klarheit verschaffen zu können, und
+war man bis vor Kurzem darauf hingewiesen, aus den
+<pb n='14'/><anchor id='Pg14'/>
+Anfängen griechischer Mathematik auf den Stand der aegyptischen
+zurückzuschliessen, was, wie aus dem Vorhergesagten
+folgen dürfte, mit nicht geringen Schwierigkeiten verbunden
+erscheint.
+</p><p>
+Die Ansicht, dass die Geometrie der Aegypter eigentlich
+nur constructiver Natur war, ähnlich dem was wir als Reisskunst
+zu bezeichnen pflegen,<note place='end'>
+  <bibl><author>Bretschneider</author>,
+    <title>Die Geometrie und die Geometer vor Euklides</title>,
+    <biblScope>p. 11.</biblScope></bibl>
+Dem Werke Bretschneiders, sowie jenem <bibl><author>Cantor</author>'s: 
+  <title id='t:c'>Vorlesungen über Geschichte
+    der Mathematik</title></bibl>, sind die grundlegenden Gedanken entnommen.</note>
+dürfte sich nicht als stichhältig
+erweisen; es möge jedoch gleich jetzt darauf hingedeutet
+werden, dass die Aegypter im Construiren geometrischer
+Formen nicht unbewandert sein konnten.
+</p><p>
+So sagt in etwas prahlerischer Weise <name rend='gesperrt'>Demokritos</name>
+von <name rend='gesperrt' type='place'>Abdera</name><note place='end'>
+  <bibl><author>Clemens Alexandrinus</author>, <title>Stromata</title>,
+    ed. <editor>Potter</editor>,
+    <biblScope>I, 357.</biblScope></bibl></note>
+um 420 v.&nbsp;Chr.&nbsp;G.: »<q>Im Construiren von
+Linien nach Maassgabe der aus den Voraussetzungen zu
+ziehenden Schlüsse hat mich keiner je übertroffen, selbst
+nicht die sogenannten Harpedonapten der Aegypter</q>«; und
+<name rend='gesperrt'>Theon</name> von <name rend='gesperrt' type='place'>Smyrna</name><note place='end'>
+  <bibl><author>Theon Smyrnaios</author>, <title>lib. de astron.</title>
+  ed. <editor>Martin</editor>,
+  <biblScope>p. 272.</biblScope></bibl></note>
+erzählt, dass
+»<q>Babylonier, Chaldäer
+und Aegypter eifrig nach allerhand Grundgesetzen und
+Hypothesen suchten, durch welche den Erscheinungen
+genügt werden könnte; zu erreichen suchten sie dies dadurch,
+dass sie das früher Gefundene in Ueberlegung zogen, und
+über die zukünftigen Erscheinungen Vermuthungen aufstellten,
+wobei die Einen sich arithmetischer Methoden bedienten,
+wie die Chaldäer, die Anderen construirender wie
+die Aegypter</q>«.
+</p><p>
+Aus diesen und ähnlichen Berichten, sowie aus dem
+Umstande, dass die Anfänge der griechischen Geometrie
+selbst hauptsächlich constructiver Natur waren, muss man
+zu dem Schlusse kommen, dass die alten Aegypter seit unvordenklichen
+Zeiten die Reisskunst pflegten, und in der langen
+Reihe der Jahrhunderte sicherlich eine ziemlich bedeutende
+Masse sowohl einfacher als complicirterer Constructionen
+erfanden und in ein gewisses System brachten, von Ersteren
+<pb n='15'/><anchor id='Pg15'/>
+zu Letzteren aufsteigend. Diese Constructionen dürften ihrem
+grösseren Theile nach, und zwar jenem Theile nach, welcher,
+wenn auch ohne Begründung Gemeingut der die Künste und
+Gewerbe betreibenden Kasten wurde, nur solche gewesen
+sein, die dem praktischen Bedürfnisse dienen konnten, also
+zumeist Ornamentenconstructionen. Wir bemerken hier unter
+Anderem das Vorkommen regelmässiger geometrischer
+Figuren auf uralten Wandgemälden, wie sie sich z.&nbsp;B. als
+färbige Zeichnungen aus den Zeiten der fünften Dynastie,
+also unmittelbar nach den Erbauern der Pyramiden, das ist
+3400 Jahre v.&nbsp;Chr.&nbsp;G. etwa vorfinden.<note place='end'>
+  <bibl><author>Prisse d'Avennes</author>,
+    <title>Hist. de l'art Egypt. d'après les monuments.</title></bibl></note>
+</p><p>
+Man sieht unter der grossen Menge der in dieser Zeit
+vorkommenden Figuren eine, aus verschobenen, ineinander
+gezeichneten, theilweise durch zu einer Diagonale Parallele
+zerlegten Quadraten zusammengesetzte Figur, ferner aus der
+Zeit von der zwölften bis zur sechsundzwanzigsten Dynastie,
+eine Figur, bestehend aus einem Quadrate, und zwei, längs
+der Diagonale centrisch hineingelegten lemniscatischen
+Curven, sowie eine Zusammenstellung von um fünfundvierzig
+Grade gegeneinander verdrehten, sich durchsetzenden Quadraten.
+Kreise erscheinen durch ihre Durchmesser in gleiche
+Kreisausschnitte getheilt; so zunächst durch zwei oder vier
+Durchmesser in vier beziehungsweise acht, und in späteren
+Zeiten auch durch sechs Durchmesser in zwölf gleiche Ausschnitte;
+die in den Zeichnungen vorkommenden Wagenräder
+besitzen zumeist sechs, seltener vier Speichen, so dass
+auch die Theilung des Kreises durch drei Diameter in sechs
+gleiche Kreisausschnitte vertreten erscheint.
+</p><p>
+In einer unvollendet gebliebenen Kammer des Grabes
+<name rend='gesperrt'>Seti&nbsp;I.</name>, des Vater
+<name rend='gesperrt'>Ramses&nbsp;II.</name> aus der neunzehnten Dynastie
+(das sogenannte Grab <name rend='gesperrt'>Belzoni</name>)<note place='end'>
+  <bibl><author>Wilkinson</author>,
+    <title id='t:w'>Manners and customs of the ancient Egyptians</title>,
+    <biblScope>III, p. 313.</biblScope></bibl></note>
+finden wir die Wände
+behufs Anbringung von Reliefarbeiten mit einem Netze gleich
+<pb n='16'/><anchor id='Pg16'/>
+grosser Quadrate bedeckt, und es kann keinem Zweifel unterliegen,
+dass wir es hier mit der Anwendung eines Verkleinerungs-
+beziehungsweise Vergrösserungsmaassstabes zu thun
+haben.
+</p><p>
+Wenn nun auch die einfachen Figuren des Dreieckes,
+Quadrates und des Kreises höchst wahrscheinlich ohne
+besondere Ueberlegung, einfach dem inneren geometrischen
+Formendrange entsprungen sein dürften, so ist doch gewiss,
+dass ihre verschiedenartige Zusammensetzung zu Mustern
+das Product, wenn auch primitiven geometrischen Denkens
+war, welches dann schon eine ziemliche Selbstständigkeit
+erreicht haben musste, als die vorerwähnte Anwendung von
+Proportionalmaassstäben in Uebung kam.
+</p><p>
+Andererseits musste das öftere Betrachten der regelmässigen
+Figuren einen geometrisch disponirten Geist von
+selbst zum Aufsuchen unbekannter Eigenschaften derselben
+reizen, und vielleicht ist der Thaletische Satz von der
+Halbirung des Kreises durch einen Durchmesser nichts als
+eine aus der Betrachtung jener aegyptischen Zeichnungen
+gewonnene Abstraction, und huldigen wir in dieser Beziehung
+der Ansicht, dass <name rend='gesperrt'>Thales</name> beim Ausspruche des erwähnten,
+für uns freilich höchst einfach klingenden Satzes, wahrscheinlich
+sagen wollte, nur der Kreis habe die ausgezeichnete
+Eigenschaft, von allen durch einen Punkt, den Mittelpunkt,
+gehenden Geraden in lauter untereinander gleiche Hälften
+getheilt zu werden.
+</p><p>
+Von besonderer Wichtigkeit scheint uns jedoch der
+früher citirte selbstgefällige Ausspruch des <name rend='gesperrt'>Demokritos</name> zu
+sein, da er uns vor einer ungerechtfertigten Unterschätzung
+aegyptischer Constructionsgewandtheit bewahren kann. Bedenklich
+in <name rend='gesperrt'>Demokritos</name>' Angabe könnte allenfalls jenes
+Selbstlob erscheinen, das er sich spendet; wenn es nun
+<pb n='17'/><anchor id='Pg17'/>
+wohl auch schon im Alterthume Männer geben mochte, die
+ihre Berühmtheit vorzugsweise und oft nur der Hochschätzung
+verdankten, die sie sich selbst und ihren Werken gezollt,
+Männer, welche in der Verbreitung des eigenen Lobes so
+emsig, so unermüdlich waren, dass sich um sie als die
+davon Ueberzeugtesten noch ein Kreis von Gläubigen bildete,
+welche den, oft nur auf schwankenden Füssen einhergehenden
+Ruhm ihrer Profeten weiter führten, so ist doch die Bedeudung
+des Geometers <name rend='gesperrt'>Demokritos</name> durch so viele, und verschiedenen
+Quellen entspringende Aussprüche beglaubigt,
+dass es gewiss Niemandem einfallen wird, seine Autorität
+als die eines gründlichen Kenners der Geometrie seiner Zeit
+in Zweifel zu ziehen. Wohl sind uns von den geometrischen
+Werken des <name rend='gesperrt'>Demokritos</name>, und kaum von allen nur die ganz
+allgemein klingenden Titel erhalten.
+</p><p>
+Während uns <name rend='gesperrt'>Cicero</name><note place='end'>
+  <bibl><author>Cicero</author>, <title>De finibus bonorum ed malorum</title>
+    <biblScope>I, 6, 20.</biblScope></bibl></note>
+diesen Philosophen als einen
+gelehrten, in der Geometrie vollkommen bewanderten Mann
+anpreist, theilt uns <name rend='gesperrt'>Diogenes Laertius</name><note place='end'>
+  <bibl><author>Diogenes Laertius</author>
+    <biblScope>IX, 47.</biblScope></bibl></note>
+mit, dass <name rend='gesperrt'>Demokritos</name>
+»<q>über Geometrie</q>«, »<q>über Zahlen</q>«, »<q>über den Unterschied
+des Gnomon oder über die Berührung des Kreises
+und der Kugel</q>«, sowie zwei Bücher »<q>über irrationale Linien
+und die dichten Dinge</q>« geschrieben habe, Schriften, deren
+Titel theilweise uns über ihren Inhalt ganz im Unklaren
+lassen. Legen wir den angeführten Zeugnissen Glauben bei,
+und es ist kein Grund vorhanden dies nicht zu thuh, so
+müssen wir von <name rend='gesperrt'>Demokritos</name> als von einem »<q>in der Geometrie
+  vollkommenen Manne</q>« voraussetzen, dass er mit den
+Errungenschaften des <name rend='gesperrt'>Pythagoras</name>, welcher ein Jahrhundert
+vor <name rend='gesperrt'>Demokritos</name> Aegypten besucht hatte, vollkommen vertraut
+war. Gewiss war ihm somit bekannt: die Methode der
+»<q>Anlegung der Flächen</q>«, welche wieder die Vertrautheit mit
+den Hauptsätzen aus der Theorie der Parallelen und der
+<pb n='18'/><anchor id='Pg18'/>
+Winkel, so wie die Kenntniss der Abhängigkeit der Flächeninhalte
+von den ihnen zukommenden Ausmaassen voraussetzt.
+Nicht minder bekannt mussten ihm die, dem <name rend='gesperrt'>Pythagoras</name>
+zugeschriebenen Constructionen der fünf regelmässigen,
+sogenannten kosmischen Körper sein, woraus sich weiter
+schliessen lässt, dass auch einerseits die Eigenschaften der
+Kugel, welcher doch jene Körper eingeschrieben wurden,
+und anderseits die Entstehungen der regelmässigen, jene
+Körper begrenzenden Vielecke, vor Allem die des Fünfeckes
+dem <name rend='gesperrt'>Demokritos</name> nicht ungeläufig sein konnten. Die Construction
+des Letzteren erheischt wiederum die Kenntniss der
+Lehre vom goldenen Schnitt, und diese den Satz vom Quadrate
+der Hypothenuse<note place='end'>
+  <bibl><author>Cantor</author>,
+    <title>Vorlesungen über Geschichte der Mathematik</title>,
+    <biblScope>I, p. 144&ndash;159</biblScope>
+    (<pubPlace>Leipzig</pubPlace> <date>1880</date>).</bibl></note>.
+Hat nun <name rend='gesperrt'>Demokritos</name> auch selbst
+nichts Neues hinzugefügt, so musste er doch Jenes kennen;
+wenn er nun anderseits sagt: »<q>im Construiren hätte ihn
+  Niemand, selbst nicht die Harpedonapten der Aegypter übertroffen</q>«,
+so dürfen wir hieraus mit Sicherheit schliessen,
+dass die geometrischen Kenntnisse der aegyptischen Priester
+bedeutend genug gewesen sein mussten, weil sich <name rend='gesperrt'>Demokritos</name>
+sonst kaum gerade über diese Geometer gesetzt hätte.
+</p><p>
+Doch verlassen wir für jetzt die Nachrichten des griechischen
+Alterthums, welche in der Beurtheilung aegyptischer
+Geometrie nur Conjecturen zulassen, und blicken wir nach
+directen Denkmalen aegyptischen Ursprungs, aus denen vielleicht
+Schlüsse gezogen werden könnten auf Wesen und
+Umfang aegyptischer Geometrie.
+</p><p>
+Das Britische Museum bewahrt eine Papyrusrolle,
+welche aus dem Nachlasse des Engländers <name rend='gesperrt'>A. Henry Rhind</name>
+stammt, die derselbe nebst anderen werthvollen Rollen in
+Aegypten käufllich an sich gebracht haben dürfte. Der
+erwähnte Papyrus, ein altes Denkmal ägyptischer Mathematik,
+ist, wie es scheint, nicht mit vollster Berechtigung als ein
+<pb n='19'/><anchor id='Pg19'/>
+»<q>mathematisches Handbuch</q>« der alten Aegypter bezeichnet
+worden<note place='end'>
+  <bibl><author>Eisenlohr</author>,
+    <title>Ein math. Handbuch der alten Aegypter</title>.
+    <pubPlace>Leipzig</pubPlace> <date>1877</date>.</bibl></note>.
+  Der fragliche Papyrus nennt sich selbst eine
+Nachahmung älterer mathematischer Schriften, denn es heisst
+in der Einleitung: »<q>Verfasst wurde diese Schrift im Jahre
+dreiunddreissig im vierten Monat der Wasserzeit unter König
+Ra-&amacron;-us, Leben gebend nach dem Muster alter Schriften in
+den Zeiten des Königs &hellip;ât vom Schreiber Aahmes verfasst
+die Schrift.</q>«
+</p><p>
+Nachdem zuerst Dr. <name rend='gesperrt'>Birch</name><note place='end'>
+  <bibl><author>Birch</author>, in Lepsius'
+    <title level='j'>Zeitschrift für ägypt. Sprache und Alterthum</title>,
+    <date>1868</date>, <biblScope>p. 108.</biblScope></bibl></note>
+auf diesen mathematischen
+Papyrus durch einen kurzen vorläufigen Bericht aufmerksam
+gemacht hatte, wurde der Gegenstand von dem
+ausgezeichneten Heidelberger Aegyptologen Dr. <name rend='gesperrt'>Eisenlohr</name>
+einer eingehenden, höchst schwierigen und zeitraubenden
+Untersuchung unterzogen, deren Resultate, was die Uebersetzung
+betrifft, unseren gegenwärtigen Betrachtungen zu
+Grunde liegen. Bezüglich des Alters des Papyrus hat man
+jenes der vorhandenen Abschrift von dem Alter des unbekannten
+Originals zu unterscheiden. Nach der von <name rend='gesperrt'>Eisenlohr</name>
+gegebenen Vervollständigung der in der erwähnten Einleitung
+auf das Wort König folgenden Lücke, würde der Herrscher,
+unter dessen Regierung das Original entstanden ist, der
+König <name rend='gesperrt'>Ra-en-mat</name> sein, dessen Regierungszeit <name rend='gesperrt'>Lepsius</name><note place='end'>
+  <bibl><author>Lepsius</author>, <title level='j'>ägypt. Zeitschrift</title>,
+    <date>1871</date>, <biblScope>p. 63.</biblScope></bibl></note>
+auf 2221&ndash;2179 v.&nbsp;Chr.&nbsp;G. legt. Da ferner der Name
+<name rend='gesperrt'>Ra-a-us</name> in den bis dahin vorhandenen Königslisten nicht
+vorkommt, sah man sich, um die Zeit der Entstehung der
+Abschrift wenigstens annähernd angeben zu können, darauf
+angewiesen, aus der bekannten Sitte der Aegypter die Eigennamen
+der eben herrschenden oder der unmittelbar vorhergegangenen
+Regenten zu gebrauchen, Schlüsse zu ziehen.
+Und da liess der Name <name rend='gesperrt'>Aahmes</name> des Schreibers, sowie auch
+die (althieratische) Schrift des Papyrus vermuthen, dass derselbe
+um 1700 v.&nbsp;Chr.&nbsp;G. entstanden sein dürfte. Die Vermuthung
+<pb n='20'/><anchor id='Pg20'/>
+in Bezug auf das Zeitalter der Abschrift hat sich
+nun neueren Forschungen zu Folge vollkommen bestätigt.
+Denn <name rend='gesperrt'>Ra-a-us</name> wurde als der Hyksoskönig <name rend='gesperrt'>Apophis</name>
+erkannt, und <name rend='gesperrt'>Aahmes</name> dürfte seinen Namen von dem, kurze
+Zeit dem Apophis vorhergegangenen Könige <name rend='gesperrt'>Amasis</name> entlehnt
+haben.
+</p><p>
+Es erscheint so vollkommen sichergestellt, dass unser
+Papyrus aus dem achtzehnten Jahrhundert v.&nbsp;Chr.&nbsp;G. stammt.
+Die Eingangsworte des Papyrus, welche lauten: »<q>Vorschrift
+zu gelangen zur Kenntniss aller dunklen Dinge, aller Geheimnisse,
+welche enthalten sind in den Gegenständen</q>«, sowie
+die Anordnung des Stoffes in Arithmetik, Planimetrie und
+Stereometrie, an welche sich ein, verschiedene Beispiele enthaltender
+Theil anschliesst, konnten im ersten Augenblicke
+den Gedanken aufkommen lassen, dass wir es vielleicht mit
+einem Lehrbuche der Mathematik zu thun haben. Der Umstand
+jedoch, dass der Papyrus nur die Zusammenstellung,
+allerdings eine in gewissem Grade systematische Zusammenstellung
+von Aufgaben nebst ihren Lösungen und den zugehörigen
+Proben ist, ohne dass Definitionen oder Lehrsätze
+und Beweise vorkommen würden, liess den Papyrus wiederum
+als eine Aufgabensammlung, als ein Anleitungsbuch für
+Praktiker erscheinen. Man ist noch weiter gegangen, und
+stellte die Ansicht auf, der Autor habe bei Abfassung dieser
+Schrift vorzüglich an Landleute, welchen die Theorie unzugänglich
+war, gedacht. Daraufhin weise nicht nur die Formulirung
+des grössten Theiles der Aufgaben, welche Verhältnisse
+und Bedürfnisse der Landwirthschaft berücksichtigen, sondern
+auch der Schlusssatz des Papyrus, welcher sagt: »<q>Fange das
+Ungeziefer und die Mäuse, (vertilge) das verschiedenartige
+Unkraut, bitte Gott <name rend='gesperrt'>Ra</name> um Wärme, Wind und hohes Wasser</q>«.
+</p>
+<pb n='21'/><anchor id='Pg21'/>
+<p>
+Dass wir es nicht mit einem Handbuche, welches dem
+damaligen Standpunkte der mathematischen Wissenschaften
+in Aegypten entsprechen müsste, zu thun haben, ergibt sich
+nicht nur aus dem schon hervorgehobenen Mangel an Definitionen,
+Lehrsätzen und Beweisen, ja es fehlt selbst jede Erklärung,
+sondern auch aus dem Umstände, dass neben der
+richtigen Lösung einzelner Aufgaben die unrichtigen oder
+unvollendeten Lösungen derselben oder ähnlicher Aufgaben,
+sowie manche Wiederholungen vorkommen. Nur nebenbei
+verweisen wir darauf, dass in einem Handbuche unzweifelhaft
+wenigstens Anklänge an die erste der Wissenschaften des
+Alterthums, an die Astronomie, zu finden sein müssten. Doch
+ist von diesem Theile der Mathematik im Papyrus nicht die
+geringste Spur zu finden. Aufklärungen über den wahren
+Charakter des Originals unseres Papyrus, und eine viele Wahrscheinlichkeit
+besitzende Vermuthung über die Entstehung
+der uns beschäftigenden Abschrift, verdanken wir dem Scharfsinne
+des französischen Aegyptologen Eugène <name rend='gesperrt'>Revillout</name>.<note place='end'>
+  <bibl><author>Revillout, Eugène</author>,
+    <title level='j'>Revue Egyptologique</title>,
+    <date>1881</date>,
+    <biblScope>Nr. II et III, p. 304.</biblScope></bibl></note>
+</p><p>
+Bei richtiger Erwägung des Umstandes, dass oft auf ein
+fehlerlos gelöstes Beispiel, falsche Lösungen ähnlicher Beispiele
+folgen, welchen sich dann gewöhnlich eine Reihe von
+Uebungsrechnungen anschliesst, Rechnungen die einem Schulpensum
+in hohem Grade ähnlich sehen, bei Betrachtung der
+Thatsache ferner, wie ein und dasselbe Zahlenbeispiel oft
+einigemal und zwar so behandelt wird, dass der Reihe nach
+die vorkommenden Zahlenwerthe als die berechneten Resultate
+erscheinen, drängt sich uns mit <name rend='gesperrt'>Eugène Revillout</name> die
+Ueberzeugung auf, dass wir es mit dem Uebungs- oder Aufgabenhefte
+eines Zöglings jener Unterrichtshäuser (a·sbo) zu
+thun haben, wie deren in so manchem Papyrus Erwähnung
+geschieht, und in denen die Schüler, welche später Landwirthe,
+Verwalter, Feldmesser oder Constructeure werden
+<pb n='22'/><anchor id='Pg22'/>
+wollten, mit den für ihre künftige Laufbahn notwendigen
+Rechnungsoperationen vertraut gemacht wurden. Da dieses
+Schulheft selbstverständlich nicht für die Oeffentlichkeit
+bestimmt sein konnte, so trägt es auch thatsächlich keinen
+Autornamen und keine Jahresangabe; denn, was die in der
+Einleitung bezüglich der Zeitperiode, in welcher das Original
+entstanden sein sollte, gemachte Erwähnung betrifft, so ist
+mehr als wahrscheinlich, dass dieselbe von dem Abschreiber
+<name rend='gesperrt'>Aahmes</name> herrührt, welcher das Original einige Jahrhunderte
+nach seiner Entstehung auffand, und dasselbe, der Mathematik
+gewiss ganz unkundig, sammt allen Fehlern abschrieb, zu
+diesen noch neue hinzufügend. Nachdem <name rend='gesperrt'>Aahmes</name> aus der
+Aehnlichkeit der Schriftart des mathematischen Heftes mit
+der Schrift anderer ihm bekannten Papyri auf das Alter des
+ersteren einen im Ganzen und Grossen nicht unrichtigen
+Schluss gezogen haben mochte, so können wir das Ende,
+vielleicht auch die Mitte des dritten Jahrtausends v.&nbsp;Chr.&nbsp;G.
+als jene Zeit betrachten, in welcher das Original der Abschrift
+entstanden sein dürfte. Ob <name rend='gesperrt'>Aahmes</name> die Abschrift
+mit der viel versprechenden Einleitung und der zugleich
+praktischen und gottesfürchtigen Schlussregel in der Absicht
+versehen hatte, um sie an irgend einen einfachen aegyptischen
+Landmann um gutes Geld anzubringen, lassen wir dahingestellt,
+und wiederholen nur unsere Uebereinstimmung mit
+der Ansicht, dass das Original des Papyrus neben den von
+einem Lehrer der Mathematik herrührenden Musterbeispielen,
+die sehr oft verunglückten Uebungen eines Schülers enthält,
+eines Schülers überdies, der nicht zu den hervorragenden
+seiner Glasse gehört haben mochte. Und wie kostbar ist
+dennoch dieses altägyptische Schulheft! Wenn wir in aller
+Eile eine Skizze seines Inhaltes vorführen sollen, so
+müssen wir zunächst die sich auf acht Columnen der oben
+<pb n='23'/><anchor id='Pg23'/>
+erwähnten Einleitung anschliessende Theilung der Zahl 2
+durch die Zahlen von 3 bis 99 erwähnen; jeder auftretende
+Bruch erscheint in zwei bis vier sogenannte
+Stammbrüche, Brüche mit dem Zähler Eins, zerlegt, und sind
+die Nenner der letzteren meist gerade Zahlen mit einer
+grösseren Divisorenanzahl. Im Anschluss an diese Tabelle
+finden wir sechs Beispiele, in denen in Form von Brodvertheilungen
+die Division der Zahlen l, 3, 6, 7, 8 und 9 durch
+die Zahl 10 gelehrt wird, und es folgt hierauf in 17 Beispielen
+die sogenannte Sequem- oder Ergänzungsrechnung,
+in welcher es sich darum handelt, Zahlenwerthe zu finden,
+die mit gegebenen Werthen durch Addition oder Multiplication
+verbunden, andere gegebene Zahlenwerthe liefern. Die nächsten
+15 Beispiele gehören der sogenannten <emph>Haurechnung</emph>
+an, und finden wir in diesem Abschnitte die Lösungen linearer
+Gleichungen mit einer Unbekannten. Zwei weitere, der sogenannten
+<emph>Tunnu-</emph> oder Unterschiedsrechnung angehörige
+Beispiele belehren uns darüber, dass den alten Aegyptern der
+Begriff arithmetischer Reihen nicht fremd war. Es folgen nun
+sieben Beispiele über Volumetrie, ebensoviele über Geometrie
+und fünf Beispiele über Berechnungen von Pyramiden, also
+19 Aufgaben über die wir später noch einige Worte sagen
+müssen.
+</p><p>
+Hieran schliessen sich endlich dreiundzwanzig verschiedenen
+Materien entlehnte, Fragen des bürgerlichen Lebens
+betreffende Beispiele, wie die Berechnung des Werthes von
+Schmuckgegenständen, abermals Vertheilungen von Broden
+oder von Getreide, Bestimmung des auf einen Tag entfallenden
+Theiles eines Jahresertrages, Berechnungen von Arbeitslöhnen,
+Nahrungsmitteln sowie des Futters für Geflügelhöfe.
+Einer besonderen Ankündigung werth erscheinen uns in
+dieser letzten Abtheilung zwei Beispiele; das eine derselben<note place='end'>
+  <bibl><author>Eisenlohr</author>,
+    <title>Ein math. Handbuch der alten Aegypter</title>.
+    <biblScope>Nr. 64.</biblScope></bibl></note>
+<pb n='24'/><anchor id='Pg24'/>
+lässt keinen Zweifel darüber aufkommen, dass den alten
+Aegyptern die Theorie der arithmetischen Progressionen
+vollkommen geläufig war, während wir in dem zweiten<note place='end'>
+  ibid. Nr. 79.</note>
+unter der Aufschrift »<q>eine Leiter</q>« die geometrische Progression
+von 7 hoch 1 bis 7 hoch 5 nebst deren Summe vorfinden, wobei
+die einzelnen Potenzen eigene Namen: an, Katze, Maus,
+Gerste, Maass zu führen scheinen.
+</p><p>
+Nicht unbemerkt lassen wir endlich die in den Haurechnungen
+auftretende Benützung mathematischer Zeichen;
+so nach links oder rechts ausschreitender Beine für Addition
+und Subtraction, drei horizontale Pfeile für Differenz, sowie
+endlich ein besonderes, dem unseren nicht unähnliches
+Gleichheitszeichen.
+</p><p>
+Aus dem geometrischen Theile heben wir zunächst, der
+Anordnung des Papyrus nicht folgend, die Flächenberechnungen
+von Feldern hervor. Die vorkommenden Beispiele
+beziehen sich auf quadratische, rechteckige, kreisrunde und
+trapezförmige Felder, deren Flächeninhalte aus ihren Längenmaassen
+bestimmt werden. Nachdem in den Aufgaben über
+die Berechnung des Fassungsvermögens von Fruchtspeichern
+mit quadratischer Grundfläche diese letztere gefunden wird
+durch Multiplication der Maasszahl der Seite mit sich selbst,
+kann es gar keinem Zweifel unterliegen, dass auch die Fläche
+des Rechteckes durch Multiplication der Maasszahlen zweier
+zusammenstossender Seiten erhalten wurde, da die Erkenntniss
+der Richtigkeit der einen Bestimmungsart, jene der Richtigkeit
+der anderen involvirt.
+</p><p>
+Schon die Betrachtung solcher Proportionalmaassstäbe,
+wie wir sie im Grabe <name rend='gesperrt'>Belzoni</name> bemerken konnten, hätte
+die alten Aegypter, die mit Gleichungen und arithmetischen
+Reihen umzugehen wussten, auf die Bestimmung der Fläche
+eines Rechteckes aus seinen beiden Seitenlängen mit Nothwendigkeit
+<pb n='25'/><anchor id='Pg25'/>
+führen müssen, und werden wir uns durch den
+Umstand, dass im Papyrus der diesbezüglichen Aufgabe eine
+zu ihr nicht gehörige Lösung beigefügt ist, durchaus nicht
+beirren lassen.
+</p><p>
+Von hohem Interesse ist die, an mehreren Stellen des
+Papyrus vorkommende Methode der Flächenberechnung eines
+Kreises, welche zeigt, dass die alten Aegypter mit ziemlicher
+Annäherung den Kreis zu quadriren wussten, in der That zu
+quadriren, weil sie aus dem Durchmesser eine Länge ableiten,
+welche als Seite ein Quadrat liefert, dessen Fläche jener des
+Kreises gleichgesetzt wurde. Da sie acht Neuntel des Durchmessers
+zur Seite jenes Quadrates machten, so entspricht dies
+einem Werthe der Ludolphischen Zahl, welcher dem richtigen
+Werthe gegenüber um nicht ganz zwei Hundertstel (um
+0,018901) zu hoch gegriffen erscheint; für das dritte Jahrtausend
+v.&nbsp;Chr.&nbsp;G. und im Vergleiche zu dem Werth &pi; = 3
+der Babylonier, und noch mehr im Vergleiche zu dem Werthe
+&pi; = 4 späterer römischer Geometer, jedenfalls eine nicht zu
+unterschätzende Annäherung an den richtigen Werth.
+</p><p>
+Eine Aufgabe behandelt die Flächenbestimmung des
+Dreieckes, wobei das Resultat als das Product zweier Seitenlängen
+gefunden wird. Die hier beigefügte Figur<note place='end'>
+  ibid. p. 125.</note>, welche
+in Wirklichkeit ein ungleichseitiges langgestrecktes Dreieck
+darstellt, kann ebensowohl als die verfehlte Zeichnung eines
+rechtwinkligen wie auch eines gleichschenkligen Dreieckes
+betrachtet werden.
+</p><p>
+Letztere Annahme ist von <name rend='gesperrt'>Eisenlohr</name> gemacht und
+von <name rend='gesperrt'>Cantor</name><note place='end'>
+  <bibl><author>Cantor</author>,
+    <title>Vorlesungen aus der Geschichte der Mathematik</title>,
+    <biblScope>I, p. 49.</biblScope></bibl></note>
+acceptirt worden. Darnach würde sich die
+Methode der Dreiecksberechnung der alten Aegypter nur als
+eine Näherungsmethode darstellen, und ist auch von beiden
+genannten Gelehrten der begangene, in diesem Falle in der
+That nicht bedeutende Fehler ermittelt worden.
+</p>
+<pb n='26'/><anchor id='Pg26'/>
+<p>
+Wir sind dagegen mit Revillout anderer Meinung.
+</p><p>
+Mit Rücksicht auf den von uns klar erkannten Charakter
+des Originales des Papyrus als eines sehr ungenauen Collegienheftes,
+dessen Rechnungen ebensosehr wie die vorkommenden
+Zeichnungen von der Mittelmässigkeit seines
+Zusammenstellers beredtes Zeugniss ablegen, zweifeln wir
+keinen Augenblick, dass die fragliche Figur ein rechtwinkliges
+Dreieck vorzustellen hatte. Die mangelhafte Schülerzeichnung
+ist durch den Copisten <name rend='gesperrt'>Aahmes</name> nur noch
+schlechter geworden. Dass ein rechtwinkliges Dreieck gemeint
+sein soll, erkennt man übrigens auch aus dem Umstande,
+dass in der Figur die Maasszahlen der multiplicirten Seiten
+bei den Schenkeln des, vom rechten Winkel nur wenig differirenden
+Winkels angesetzt sind, wo doch, wenn es sich hätte
+um ein gleichschenkliges Dreieck handeln sollen die Maasszahl
+der Schenkel in der Figur gewiss bei beiden Schenkeln zu
+finden wäre. Dieselben Gründe bestimmen uns zu der
+Annahme, dass die im Papyrus befindliche Flächenberechnung
+eines Trapezes eine vollkommen richtige ist, indem es sich
+auch hier nur um ein Trapez handeln kann, dessen zwei
+parallelen Seiten auf einer der nicht parallelen Seiten senkrecht
+stehen. Und warum sollten denn die alten Aegypter
+nicht die richtige Art der Flächenberechnung auch beliebiger
+Dreiecke gekannt haben?
+</p><p>
+Konnte man einmal die Fläche eines Rechteckes genau
+bestimmen, so musste sich durch einfache Anschauung eines,
+durch eine Diagonale zerlegten Rechteckes, von selbst die
+Regel zur Flächenbestimmung des rechtwinkligen Dreieckes
+ergeben; und wurde nun ein beliebiges schiefwinkliges
+Dreieck durch ein Höhenperpendikel in zwei rechtwinklige
+zerlegt, so war nichts leichter als die allgemeine Regel zur
+Bestimmung der Dreieckfläche aus Basis und Höhe (<foreign>tepro</foreign>
+<pb n='27'/><anchor id='Pg27'/>
+und <foreign>merit</foreign>) zu entwickeln. Dass die Gewinnung des Höhenperpendikels
+sowohl bei Constructionen als auch auf dem
+Felde den alten Aegyptern nicht unmöglich war, folgt zunächst
+aus der grossen Bedeutung der Winkelmaasses (<foreign>hapt</foreign>) für alle
+Operationen der praktischen Geometer Aegyptens. Nicht nur,
+dass wir in vielen aegyptischen Documenten das Winkelmaass
+erwähnt finden, sieht man auch Könige abgebildet, das Winkelmaass
+in der Hand, welches von ihnen vielleicht in derselben
+Weise durch symbolische Benützung geehrt wurde, wie der
+Kaiser von China alljährlich einmal den Pflug zu führen
+pflegt. Ein solches Winkelmaass sieht man übrigens auch auf
+einem Wandgemälde abgebildet, das eine Schreinerwerkstätte
+darstellt,<note place='end'>
+  <bibl><author>Wilkinson</author>,
+    <title corresp='t:w'>Manners and customs u. s. w.</title>
+    <biblScope>III., p. 144.</biblScope></bibl></note>
+und es unterliegt keinem Zweifel, dass dasselbe
+ebensowohl zur Anlegung rechter Winkel als zum Fällen von
+Senkrechten benützt worden ist. Aber auch auf freiem Felde
+musste den Aegyptern die Construction rechter Winkel geläufig
+sein; sowohl die Pyramiden als auch die aegyptischen
+Tempel sind vollkommen orientirt, und wurde, wie uns alte
+Inschriften<note place='end'>
+  <bibl><author>Brugsch</author>,
+    <title>Ueber Bau und Maasse des Tempels von <name type='place' rend='gesperrt'>Edfu</name></title>
+    (<title level='j'>Zeitschrift für ägypt. Sprache u. Alterth.</title>
+    <biblScope>Bd. VIII.</biblScope>)</bibl></note>
+belehren, die Orientirung in festlicher Weise
+vom Könige unter Beihilfe der Bibliotheksgöttin <name rend='gesperrt'>Safech</name> vollzogen,
+mit den Worten: »<q>Ich habe gefasst den Holzpflock und
+den Stiel des Schlägels, ich halte den Strick gemeinschaftlich
+mit der Göttin <name rend='gesperrt'>Safech</name>. Mein Blick folgt dem Gange der
+Gestirne. Wenn mein Auge an dem Sternbilde des grossen
+Bären angekommen ist, und erfüllt ist der mir bestimmte
+Zeitabschnitt der Zahl der Uhr, so stelle ich auf die Eckpunkte
+Deines Gotteshauses.</q>«
+</p><p>
+In welchem Maasse bei diesen Operationen die von
+<name rend='gesperrt'>Demokritos</name> so hochgestellten <name rend='gesperrt'>Harpedonapten</name> oder
+Seilspanner betheiligt waren, hat <name rend='gesperrt'>Cantor</name><note place='end'>
+  <bibl><author>Cantor</author>,
+    <title corresp='t:c'>Vorlesungen u. s. w.</title>
+    <biblScope>I, p. 55.</biblScope></bibl></note> in höchst
+scharfsinniger Weise zu beleuchten versucht, und es erscheint
+auch uns wahrscheinlich, dass sich die alten Aegypter beim
+<pb n='28'/><anchor id='Pg28'/>
+Construiren rechter Winkel sowie beim Fällen von Senkrechten
+auf dem Felde, der Thatsache bedienten, dass der
+eine Winkel in einem, die Seitenlängen drei, vier und fünf
+besitzenden Dreiecke, ein rechter Winkel sein müsse. Musste
+ja doch dieser Satz seit unvordenklichen Zeiten auch den
+Chinesen bekannt sein, da wir ihn in der bei ihnen so
+berühmten Schrift <title>Tschiu-p&imacron;</title> finden, welche mehrere Jahrhunderte
+v.&nbsp;Chr.&nbsp;G. entstanden, auf den Kaiser <name rend='gesperrt'>Tsch&imacron;u-Kung</name>
+also in das Jahr 1100 v.&nbsp;Chr.&nbsp;G. etwa zurückgeführt
+wird.<note place='end'>
+  <bibl><author>Éd. Biot</author>, <title level='j'>Journal Asiatique</title>,
+    <pubPlace>Paris</pubPlace> <date>1841</date>,
+    <biblScope>I. Sem. p. 593.</biblScope></bibl></note>
+Uebrigens konnten directe Messungsversuche an
+diagonalen Linien in den Proportionalmaassstäben sowohl zu
+dem erwähnten als auch noch zu anderen rechtwinkligen
+Dreiecken mit rationalen Seitenlängen geführt haben, und
+scheint uns die Möglichkeit nicht ausgeschlossen, dass der
+berühmte und berüchtigte Satz des <name rend='gesperrt'>Pythagoras</name> über die
+Quadrate der Katheten und der Hypothenuse einer eingehenden
+Untersuchung solcher Proportionalmaassstäbe entsprungen
+ist.
+</p><p>
+Wenn wir nun einerseits behaupten, dass die alten
+Aegypter nicht nur die Fläche des Kreises, des Quadrates,
+des Rechteckes, des rechtwinkligen sowie des schiefen Dreieckes,
+und unter Zuhilfenahme der Zerlegungen auch die
+Flächen beliebiger Polygone theoretisch genau zu bestimmen
+im Stande waren, mit Ausnahme der auch für uns eine solche
+bildenden Kreisfläche, so muss doch anderseits zugestanden
+werden, dass man sich bei praktischen Anwendungen mit
+Näherungen begnügte, welche im Laufe der Zeiten so ausarteten,
+dass der Gebrauch falscher Regeln ein allgemeiner
+wurde.
+</p><p>
+Am linken Nilufer in der Mitte zwischen <name rend='gesperrt' type='place'>Theben</name> und
+<name rend='gesperrt' type='place'>Assuan</name> liegt <name rend='gesperrt' type='place'>Edfu</name>, das alte <name rend='gesperrt' type='place'>Appollinopolis Magna</name>
+mit einem stattlichen Tempelbau aus den Zeiten der Ptolomäer.
+<pb n='29'/><anchor id='Pg29'/>
+Der Tempel, hauptsächlich dem Gotte <name rend='gesperrt'>Horus</name> geweiht,
+ist mit einer freistehenden Umfassungsmauer umgeben,<note place='end'>
+  <bibl><author>Lepsius</author>,
+    <title>Ueber eine hieroglyphische Inschrift am Tempel von <name type='place' rend='gesperrt'>Edfu</name></title>.
+    <title level='j'>Abhandlung d. Acad. d. Wiss. in Berlin</title>,
+    <date>1855</date>, <biblScope>p. 69.</biblScope></bibl></note>
+deren Ostseite zwischen dem Brunnenthore und dem östlichen
+Pylonflügel eine Inschrift trägt, welche uns auf acht
+Feldern und in hundertvierundsechzig Columnen<note place='end'>
+  <bibl><author>Brugsch</author>, <title>Thesaurus III</title>,
+    <pubPlace>Leipzig</pubPlace> <date>1884.</date></bibl></note> eine
+Schenkungsurkunde des Königs <name rend='gesperrt'>Ptolomäus XI. Alexander
+  I.</name> (mit dem Beinamen <name rend='gesperrt'>Philometor</name>) bekannt gibt. Das
+Geschenk, welches hier <name rend='gesperrt'>Horus</name> und den übrigen Göttern von
+<name rend='gesperrt' type='place'>Edfu</name> verliehen wird, besteht aus einer Anzahl von meist
+viereckigen Aeckern, deren vier Seitenlängen nebst Flächeninhalten
+angegeben erscheinen.
+</p><p>
+Da jeder der vorkommenden Flächeninhalte identisch
+ist mit dem Producte der arithmetischen Mittel der beiden
+Gegenseitenpaare, so wurde nach <name rend='gesperrt'>Lepsius</name> die Vermuthung
+aufgestellt, die alten Aegypter hätten, um Vierecke bei der
+Flächenbestimmung annähernd wie Rechtecke behandeln zu
+können, den Unterschied der Gegenseiten dadurch auszugleichen
+gesucht, dass sie die arithmetischen Mittel derselben
+in Rechnung zogen.
+</p><p>
+Bei sehr vielen der in der <name rend='gesperrt' type='place'>Edfu</name>er Schenkungsurkunde
+vorkommenden Vierecke ist der Unterschied je zweier Gegenseiten
+entweder Null oder verhältnissmässig so klein, dass
+man den betreffenden Vierecken eine vom Rechtecke wenig
+verschiedene Gestalt beilegen kann, und die erhaltenen Resultate
+somit eine ziemliche Annäherung an den richtigen
+Flächenwerth darstellen dürften, nach dem man mit Rücksicht
+auf die bei <name rend='gesperrt'>Sesostris</name> bemerkte Eintheilung des Landes
+in Rechtecke voraussetzen darf, gerade diese oder eine ihr
+zunächst kommende Form der Felder sei die auch damals
+schon beliebte gewesen.
+</p><p>
+Doch kommen auch Vierecke vor, wo der Längenunterschied
+der Gegenseiten ein bemerkenswerther ist; ja es werden
+<pb n='30'/><anchor id='Pg30'/>
+auch Dreiecke als Vierecke mit einer verschwindenden Seite
+behandelt, so dass der begangene Fehler in manchen Fällen
+ein nicht unbedeutender ist.
+</p><p>
+Nur nebenbei bemerken wir, dass man dieselbe unrichtige
+Flächenformel für das Viereck erhält, wenn man dasselbe
+zunächst durch eine Diagonale in zwei Dreiecke zerlegt,
+auf jedes dieser Dreiecke die unrichtige Flächenformel,
+die den Inhalt als das halbe Product der beiden Seiten liefert,
+anwendet, die beiden so erhaltenen Dreiecksflächen addirt
+und dann aus dieser Summe und jener, welche man bei dem
+ähnlichen Vorgange durch Zerlegung mittelst der zweiten
+Diagonale erhält, das arithmetische Mittel construirt.
+</p><p>
+Nimmt man mit <name rend='gesperrt'>Eisenlohr</name> und <name rend='gesperrt'>Cantor</name> an, dass die
+Aegypter die Dreiecksfläche wirklich dem halben Producte
+zweier Seiten gleichsetzten, so steht man vor der Frage,
+warum nicht in derselben Art die Flächen der in der <name rend='gesperrt' type='place'>Edfu</name>er
+Schenkungsurkunde auftretenden Dreiecke bestimmt erscheinen?
+</p><p>
+Uebrigens wolle man sich darüber nicht wundern, dass
+es überhaupt möglich war, die Flächenberechnungen im
+praktischen Leben nach einer so falschen Methode durchzuführen.
+Wissen wir doch, dass im Alterthume, zur Zeit
+<name rend='gesperrt'>Platon</name>s, einer der gebildetsten Männer, einer der
+hervorragendsten Geschichtschreiber, dass <name rend='gesperrt'>Thukydides</name><note place='end'>
+  <bibl><author>Thukydides</author>,
+    ed. <editor>Rothe</editor>,
+    <biblScope>VI. 1.</biblScope></bibl></note> in seiner
+Unkenntniss der Beziehung zwischen Flächeninhalt und Umfang,
+die Fläche einer Insel nach der zu ihrer Umschiffung
+nothwendigen Zeit zu bestimmen suchte; in der Geometrie
+<name rend='gesperrt' id='a:g'>Gerbert</name>'s,<note place='end'>
+  <bibl><author corresp='a:g' /> ed. <editor>Olleris</editor>,
+    <biblScope>Cap. LXX. p. 460.</biblScope></bibl></note>
+des nachmaligen Papstes <name rend='gesperrt'>Silvester II.</name> 
+finden wir, 1000 Jahre nach Chr.&nbsp;G., die Fläche eines gleichschenkligen
+Dreieckes durch Multiplication des Schenkels
+mit der halben Basis berechnet, wo doch schon <name rend='gesperrt'>Hero von
+<pb n='31'/><anchor id='Pg31'/>
+Alexandrien</name><note place='end'>
+<bibl><title><emph>Heronis Alexandrini</emph> geometricorum et stereometricorum reliquiae</title>
+  (ed. <editor>Hultsch</editor>,
+  <pubPlace>Berlin</pubPlace> <date>1864</date>).</bibl></note>
+1100 Jahre früher die richtige Formel
+für diese Berechnung kennt.
+</p><p>
+Wir berühren diese Thatsachen, und könnten noch eine
+ganze Reihe ähnlicher Beispiele anführen, nur um zu zeigen,
+wie übereilt es wäre, aus den oft nur schwache Annäherungen
+liefernden Berechnungen der <name rend='gesperrt' type='place'>Edfu</name>er Schenkungsurkunde
+schliessen zu wollen, die richtigen Methoden seien
+den in die Wissenschaften eingeweihten aegyptischen Priestern
+nicht bekannt gewesen.
+</p><p>
+Doch zurück zum Papyrus <emph>Rhind</emph>.
+</p><p>
+Wir übergehen die Inhaltsbestimmungen von Fruchthäusern,
+bei denen der Inhalt durch Multiplication einer
+Fläche mit einer Länge bestimmt wird, weil wir es für
+müssig halten, Erörterungen darüber anzustellen, welche
+Flächen und Längen hiebei gemeint sind, so lange uns über
+die Form jener Fruchthäuser oder Speicher nichts bekannt
+ist.
+</p><p>
+Dagegen erwecken die im Papyrus vorkommenden Pyramiden-Berechnungen
+das höchste Interesse, besonders nach
+den glänzenden Untersuchungen, welchen <name rend='gesperrt'>Revillout</name>
+diesen Gegenstand unterzogen hat, und deren Resultate wir,
+entgegen der von <name rend='gesperrt'>Eisenlohr</name> ausgesprochenen und auch
+von <name rend='gesperrt'>Lepsius</name><note place='end'>
+  <bibl><author>Lepsius</author>,
+    <title>Ueber die 6palmige grosse Elle von 7 kleinen Palmen Länge
+    in dem »math. Handbuche« von Eisenlohr</title>.
+  (<title level='j'>Zeitschrift f. äg. Sp.</title>
+  <date>1884.</date> <biblScope>1. Heft.)</biblScope></bibl></note>
+acceptirten Ansicht als solche betrachten,
+welche in einfacher und natürlicher Weise die sogenannte
+<emph>Seket</emph>-Rechnung der alten Aegypter beleuchten.
+</p><p>
+Es wird in diesen Rechnungen die Böschung der Seitenflächen
+einer quadratischen Pyramide dadurch fixirt, dass
+jener Theil der Länge eines der beiden gleichlangen Schenkel
+des Winkelmaasses berechnet wird, der sich zur Länge des
+anderen Schenkels so verhält, wie die halbe Länge der Basisseite
+der quadratischen Pyramide zur Höhe derselben.
+</p>
+<pb n='32'/><anchor id='Pg32'/>
+<p>
+Zu dem Behufe war der eine der beiden Schenkel des
+Winkelmaasses in eine gewisse Anzahl gleich grosser Theile
+getheilt, während der andere Schenkel, der Pyramidenhöhe
+entsprechend, und als Einheit betrachtet, ungetheilt blieb.
+</p><p>
+Um nun den sogenannten <emph>Seket</emph> zu bestimmen, wurde
+die halbe Länge der Basisseite durch die Pyramidenhöhe
+dividirt und mit dem erhaltenen Quotienten die Anzahl der
+Theile des horizontalen, getheilten Schenkels des Winkelmaasses
+multiplicirt.
+</p><p>
+Es war somit der Seket (welcher in derselben Art für
+einen geraden Kreiskegel aus dem Durchmesser der Basis
+und der Höhe bestimmt erscheint) als Verhältniss aufgefasst,
+die goniometrische Cotangente des Neigungswinkels der Seitenfläche
+der Pyramide, respective der Kegelkante zur Basis.
+</p><p>
+Wenn wir selbstverständlich weit davon entfernt sind,
+hierin vielleicht Anfänge der Trigonometrie sehen zu wollen,
+so erkennen wir doch anderseits, dass den alten Aegyptern
+auch die Lehre proportionaler Linien, wenigstens in ihren
+Anwendungen, bekannt gewesen sein musste, und erscheint
+uns auch der am Eingange erwähnte Ausspruch über die
+dem Milesier <name rend='gesperrt'>Thales</name> zugeschriebene Höhenmessung der
+Pyramiden als ein ganz glaubwürdiger, wenn wir sehen, wie
+im Papyrus von den drei Werthen: Basis, Höhe, Seket, jeder
+aus den beiden anderen berechnet erscheint.
+</p><p>
+Fassen wir nun die Ergebnisse unserer Betrachtungen
+zusammen, so müssen wir aus der quellenmässig erwiesenen
+grossen Bewunderung, welche die ausgesprochen geometrisch
+hochentwickelten Griechen den aegyptischen Geometern rückhaltlos
+zollten, wir müssen aus der unanfechtbaren Thatsache,
+dass griechische Geometer den Grund zu ihren Kenntnissen
+und Entdeckungen in Aegypten suchten und fanden,
+wir müssen im Hinblicke auf das, aus der nun vollends
+<pb n='33'/><anchor id='Pg33'/>
+entzifferten[42] <name rend='gesperrt' type='place'>Edfu</name>er Schenkungsurkunde sich mit Sicherheit
+ergebende ausgebreitete und fest organisirte Katasterwesen
+der alten Aegypter, welches zugleich mit den zahlreichen,
+dem öffentlichen Leben dienenden Land- und
+Wasserbauten auf eine verhältnissmässig bedeutend entwickelte
+Vermessungskunde hinweist, wir müssen endlich
+aus dem von uns besprochenen Papyrus, der sich als eine
+ungenaue Abschrift eines mangelhaften, aus dem dritten Jahrtausend
+vor Chr.&nbsp;G. stammenden, mathematischen Collegien- oder
+Aufgabenheftes erweist, und aus dessen Vorhandensein
+sich fast mit Gewissheit auf damals existirende, neben den
+Regeln auch ihre Ableitungen enthaltende Lehrbücher
+schliessen lässt, wir können und müssen aus allen diesen
+Umständen den allgemeinen Schluss ziehen, dass bereits drei
+Jahrtausende vor unserer Zeitrechnung sowohl die arithmetischen,
+als auch die geometrischen Kenntnisse der Aegypter,
+einen für dieses Zeitalter bedeutenden Grad der Entwicklung
+besassen.
+</p><p>
+Insbesondere können wir in jenen fernen Zeiten eine
+staunenswerth weitgehende Annäherung bei der Berechnung
+der Kreisfläche beobachten, wir finden mit vollständiger
+Sicherheit richtige Flächenbestimmungen des Quadrates,
+Rechteckes und des rechtwinkligen Dreieckes; höchst wahrscheinlich
+auch richtige Bestimmungen der Flächen schiefwinkliger
+Dreiecke und Vierecke, welche im praktischen
+Leben durch leichter zu handhabende Annäherungsformeln
+ersetzt wurden; wir sehen Bestimmungen des Rauminhaltes
+durch ihre Dimensionen gegebener Körper und erkennen die
+Anfänge der Aehnlichkeitslehre.
+</p><p>
+Was das geometrische Zeichnen betrifft, so kennen wir
+schon die Construction der früher beobachteten regelmässigen
+Figuren und dürfen weiter vermuthen, dass die Anlegung
+<pb n='34'/><anchor id='Pg34'/>
+rechter Winkel und das Fällen von Senkrechten sowohl
+mittelst des Winkelmaasses als auch mittelst rationaler rechtwinkliger
+Dreiecke bekannt, und die Zerlegung gegebener
+Flächen behufs ihrer Inhaltbestimmung in allgemeiner Verwendung
+war.
+</p><p>
+Gewiss werden auch theoretische Resultate bekannt
+gewesen sein; so die Hälftung des Kreises durch seinen
+Durchmesser, die sich aus der besprochenen Seketrechnung
+von selbst ergebende Winkelgleichheit an der Basis gleichschenkliger
+Dreiecke und gleichseitiger quadratischer Pyramiden,
+und wohl noch manches Andere.
+</p><p>
+Möge es gelingen, durch Auffindung neuer, sowie durch
+Entzifferung der, noch ihrer Erklärung harrenden Denkmale
+und Schriften, von welchen letzteren, Dank der hohen Munificenz
+des Erlauchten Curators unserer Akademie, auch Wien
+eine imposante Zahl aufweisen kann, möge es so gelingen
+noch weitere Anhaltspunkte für die Kenntniss der mathematischen
+Thätigkeit des uns bekannten ältesten Culturvolkes,
+der Aegypter zu gewinnen!
+</p><p>
+Diesen unseren Wunsch theilen gewiss Alle, denen die
+Erforschung der Culturgeschichte des menschlichen Geschlechtes
+nicht ohne Wichtigkeit erscheint!
+</p>
+    </div>
+    <div>
+      <divGen rend="page-break-before: always" type="endnotes" />
+    </div>
+  </body>
+
+  <back>
+    <div>
+      <divGen rend="page-break-before: right" type="pgfooter" />
+    </div>
+  </back>
+</text>
+</TEI.2>
+
