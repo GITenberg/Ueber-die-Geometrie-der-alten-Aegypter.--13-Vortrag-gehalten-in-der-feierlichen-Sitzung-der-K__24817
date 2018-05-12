@@ -12,6 +12,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/26751
     wikipedia: http://de.wikipedia.org/wiki/Emil_Weyr
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/24817#Ueber-die-Geometrie-der-alten-Aegypter.--13-Vortrag-gehalten-in-der-feierlichen-Sitzung-der-K_
 gutenberg_bookshelf:
 - Mathematics
 - DE Sachbuch
